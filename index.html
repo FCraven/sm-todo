@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <script src="./index.js" async></script>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main id="main-container">
+
+      <div id="main-title">
+        <h1>//TODO</h1>
+        <button onclick="clearStorage()"
+                id="clear-button"
+                >Clear All</button>
+      </div>
+
+      <!-- INPUT-CONTAINER -->
+      <section id="input-container">
+        <input id='todo-input'
+                class="glass"
+                type="text"
+                name="todo-input"
+                placeholder="enter a new todo..."
+                maxlength="140"/>
+        <button id="todo-input-button"
+                class="glass"
+                onclick="writeTodo()">+</button>
+      </section>
+
+
+      <!-- TODO-CONTAINER -->
+        <section id="todo-container">
+          <ul id="todo-list">
+          </ul>
+        </section>
+
+      </div>
+
+  </main>
+</body>
+</html>
