@@ -142,6 +142,7 @@ body {
 }
 
 .todo-text {
+  margin-right:.25rem;
   padding: 1rem;
   display: flex;
   align-items: center;
